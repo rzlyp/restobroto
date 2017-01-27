@@ -1,6 +1,5 @@
-## Citra Photocopy
+## Fucking Resto Broto
 
----
 <h1 align="center">
 	<br>
 	<img width="400" src="http://i.giphy.com/xT9GEN48ygdJFm2Yh2.gif" alt="confused">
@@ -9,7 +8,7 @@
 	<br>
 </h1>
 
-One Day Do This :v
+<h2>Only One day , do this fucking task programs ! </h2>
 
 ### Configuration
 - **Platform:** Laravel 5.3
