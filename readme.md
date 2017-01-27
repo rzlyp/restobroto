@@ -8,14 +8,13 @@
 	<br>
 </h1>
 
-<h2>Only One day , do this fucking task programs ! </h2>
+<h2>Only One day , do this fucking programs task! </h2>
 
 ### Configuration
-- **Platform:** Laravel 5.3
-- **Framework**: Laravel
+- **Platform:** PHP 7.0
+- **Framework**: Laravel 5.3
 - **Template Engine**: blade
 - **CSS Framework**: Bootstrap
-- **CSS Preprocessor**: CSS
 - **Build Tool**: composer
 - **Database**: mysql
 - **Authentication**: Local
