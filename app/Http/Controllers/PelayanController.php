@@ -32,7 +32,7 @@ class PelayanController extends Controller
 
     	return redirect('/pelayan/meja/menu/'.$id.'/'.$no);
     }
-    public function list($id,$no){
+    public function getList($id,$no){
 
     	$mejas = Meja::where('no_meja',$id)->get();
     	$pembuka = Menu::where('kategori','Pembuka')->get();

@@ -25,7 +25,7 @@ Route::get('/logout','Auth\LoginController@logout');
 
 Route::get('/pelayan','PelayanController@index');
 Route::get('/pelayan/meja/{id}/','PelayanController@menu');
-Route::get('/pelayan/meja/menu/{id}/{no}','PelayanController@list');
+Route::get('/pelayan/meja/menu/{id}/{no}','PelayanController@getList');
 Route::get('/pesanan/list','PesanananController@getList');
 Route::get('/pelayan/pesanan/{id}/{no}','PesanananController@detailPesan');
 Route::post('/pelayan/meja/pesanan','PesanananController@add');
