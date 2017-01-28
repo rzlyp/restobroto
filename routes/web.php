@@ -18,7 +18,7 @@ Route::post('/admin/pegawai/tambah','AdminController@postRegister');
 Route::get('/admin/pegawai/edit/{id}','AdminController@getEdit');
 Route::post('/admin/pegawai/edit/{id}','AdminController@postEdit');
 Route::get('/admin/pegawai/list','AdminController@pegawai');
-Route::post('/admin/pegawai/hapus/{id}','AdminController@delete');
+Route::get('/admin/pegawai/hapus/{id}','AdminController@delete');
 Route::get('/','Auth\LoginController@index');
 Route::post('/login','Auth\LoginController@postLogin');
 Route::get('/logout','Auth\LoginController@logout');
