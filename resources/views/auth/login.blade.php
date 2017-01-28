@@ -33,11 +33,13 @@
 
 	  <div id="login-page">
 	  	<div class="container">
-                       @if (Session::has('failed'))
-                                      <div class="alert alert-success"><em> {!! session('failed') !!}</em></div>
-                        @endif
+                      
 		      <form class="form-login" method="post" action="{{url('/login')}}">
+           
 		        <h2 class="form-login-heading">RESTO BROTO</h2>
+            @if (Session::has('failed'))
+                                      <div class="alert alert-danger"><em> {!! session('failed') !!}</em></div>
+                        @endif
 		        <div class="login-wrap">
 		            <input type="text" class="form-control" placeholder="Username" name="username" autofocus>
 		            <br>

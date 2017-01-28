@@ -28,7 +28,7 @@
                                        <a href="{{url('/pantry/bahan/edit')}}/{{$data->id_bahan}}">
                                       <button class="btn btn-primary btn-xs"><i class="fa fa-pencil"></i></button>
                                       </a>
-                                       <a href="{{url('/admin/bahan/hapus')}}/{{$data->id_bahan}}">
+                                       <a href="{{url('/pantry/bahan/hapus')}}/{{$data->id_bahan}}">
                                       <button class="btn btn-danger btn-xs"><i class="fa fa-trash-o "></i></button>
                                       </a>
                                   </td>

@@ -18,7 +18,7 @@ Route::post('/admin/pegawai/tambah','AdminController@postRegister');
 Route::get('/admin/pegawai/edit/{id}','AdminController@getEdit');
 Route::post('/admin/pegawai/edit/{id}','AdminController@postEdit');
 Route::get('/admin/pegawai/list','AdminController@pegawai');
-Route::post('/admin/pegawai/delete/{id}','AdminController@delete');
+Route::post('/admin/pegawai/hapus/{id}','AdminController@delete');
 Route::get('/','Auth\LoginController@index');
 Route::post('/login','Auth\LoginController@postLogin');
 Route::get('/logout','Auth\LoginController@logout');
@@ -62,6 +62,7 @@ Route::post('/pantry/bahan/tambah','BahanBakuController@postTambah');
 Route::get('/pantry/bahan/edit/{id}','BahanBakuController@getEdit');
 Route::post('/pantry/bahan/edit/{id}','BahanBakuController@postEdit');
 Route::get('/pantry/bahan/hapus/{id}','BahanBakuController@delete');
+
 Route::get('/customer','CSController@index');
 Route::get('/customer/kuisioner/tambah','CSController@getTambah');
 Route::post('/customer/kuisioner/tambah','CSController@postTambah');
