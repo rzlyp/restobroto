@@ -33,7 +33,7 @@
         $('#meja').empty("<a href='/koki/pesanan/"+item.no_meja+"/"+item.no_transaksi+"'><div class='col-md-2 col-sm-2 col-md-offset-1 box0'><div class=box1><span class=li_stack></span><h3>"+item.no_meja+"</h3></div></div></a>"); 
         for (var i = 0; i < data.length; i++) {
             var item = data[i];
-            $('#meja').append("<a href='http://localhost/restobroto/public/koki/pesanan/"+item.no_meja+"/"+item.no_transaksi+"'><div class='col-md-2 col-sm-2 col-md-offset-1 box0'><div class=box1><span class=li_stack></span><h3>"+item.no_meja+"</h3></div></div></a>"); 
+            $('#meja').append("<a href='/koki/pesanan/"+item.no_meja+"/"+item.no_transaksi+"'><div class='col-md-2 col-sm-2 col-md-offset-1 box0'><div class=box1><span class=li_stack></span><h3>"+item.no_meja+"</h3></div></div></a>"); 
         }
         setTimeout(meja, 1000); 
       } 
