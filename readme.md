@@ -1,4 +1,4 @@
-## Fucking Resto Broto
+## Resto Broto
 
 <h1 align="center">
 	<br>
@@ -7,8 +7,6 @@
 	<br>
 	<br>
 </h1>
-
-<h2>Only One day , do this fucking programs task! </h2>
 
 ### Configuration
 - **Platform:** PHP 7.0
